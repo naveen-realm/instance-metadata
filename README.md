@@ -67,3 +67,7 @@ Note: If git is not installed use 'yum install git' for redhat or centos distrib
      ```sh
      sh -x metadata-finder.sh
      ```
+     
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
