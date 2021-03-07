@@ -5,17 +5,13 @@
 
 This project is being written in shell script and it is used to get all the metadata of AWS EC2 instance in json format. It also shows all the available ec2 metadata categories and also their values. The final output is the metadata of ec2 instance in json format which will be printed on the console and also it outputs the result in outputs.json file.
 
+
 ## Getting Started
 
 ### Prerequisites
 
 1. Since the code is written in shell script, you need linux machine to run it.
 2. you need to login to AWS EC2 Instance either via ssh using aws cli or using putty or from aws console via connect option (where it ssh into ec2 instance via browser)
-3. you need to install jq and curl if it is not installed
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
@@ -30,27 +26,27 @@ This project is being written in shell script and it is used to get all the meta
    ```
 4. Install packages like curl, jq if not installed already
    i. If you are using redhat or centos distribution of linux then use the below command:
-       ```sh
-       yum install curl 
-       ```
+     ```sh
+     yum install curl
+     ```
    ii. Once the installation is complete, verify it by typing curl in your terminal: 
-       ```sh
-       curl
-       ```
+     ```sh
+     curl
+     ```
    iii. For installation of jq:
-       ```sh
-       yum install jq 
-       ```
+     ```sh
+     yum install jq
+     ```
    iv. Once the installation is complete, verify it in your terminal:
-       ```sh
-       jq --version
-       ```
+     ```sh
+     jq --version
+     ```
     v. If you are using debian distribution then instead of yum use apt-get as shown below:
-       ```sh
-       apt-get install curl
-       apt-get install jq
-       ```
- Note: If git is not installed use 'yum install git' for redhat or centos distribution. For debian or ubuntu, use 'apt-get install'. Cloning the repository is not needed, you can copy the file metadata-finder.sh and execute it too.
+     ```sh
+     apt-get install curl
+     apt-get install jq
+     ```
+Note: If git is not installed use 'yum install git' for redhat or centos distribution. For debian or ubuntu, use 'apt-get install'. Cloning the repository is not needed, you can copy the file metadata-finder.sh and execute it too.
  
  
 ## Usage
